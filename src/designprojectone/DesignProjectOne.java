@@ -8,7 +8,7 @@ import java.text.*;
 /***************************************************
 *
 *  Program:
-*  Author:
+*  Author: 
 *  Date: 
 *  Description:
 ****************************************************/
@@ -74,7 +74,7 @@ public class DesignProjectOne {
         totalNumStudents = arduinoNum + raspberryPiNum + vrNum;
         
         
-        if(totalNumStudents >= 0) {
+        if(totalNumStudents <= 0) {
             System.out.println("\nInvalid number of students.");
         }
         else {
